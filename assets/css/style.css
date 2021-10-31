@@ -1,0 +1,150 @@
+.content{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.content tr td{
+    padding-bottom: 15px;
+}
+
+.profile{
+    background: rgb(128, 150, 3);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+}
+
+.profile p{
+    position: relative;
+    color: white;
+    margin-left: 18px;
+    margin-top: 14px;
+}
+
+.nav-add-user a,.existing-users a{
+    text-decoration: none;
+    color: blue;
+    position: absolute;
+    font-size: 25px;
+}
+
+.nav-add-user a{
+    top: 15%;
+    left: 10%;
+}
+
+.existing-users a{
+    top: 5%;
+}
+
+.nav-add-user a:hover,.existing-users a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.container{
+    position: relative;
+    top: 10%;
+    left: 180%;
+    padding: 50px 20px;
+    width: 200%;
+    background: rgb(198, 201, 198);
+    box-shadow: 5px 8px 10px 2px gray;
+}
+
+.container .name{
+    text-transform: uppercase;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.icons ul{
+    margin-top: -16%;
+    margin-left: 72%;
+    list-style: none;
+    display: flex;
+}
+
+.icons ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons ul li a:hover{
+    cursor: pointer;
+}
+
+.delete span{
+    color: rgb(230, 40, 40);
+}
+
+.existing-users span{
+    margin-top: 3px;
+}
+
+.heading h3{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+.user-form{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.user-details{
+    list-style: none;
+}
+
+.user-details li{
+    padding-bottom: 18px;
+}
+
+.user-details li input{
+    padding-right: 60%;
+}
+
+.btn{
+    list-style: none;
+    display: flex;
+    margin-left: 63%;
+   
+}
+
+.btn li {
+    padding: 17px;
+}
+
+.btn li button{
+    box-shadow: 3px 5px 7px gray;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.btn li button:hover{
+    cursor: pointer;
+}
+
+.add-btn{
+    background: rgb(79, 238, 79);
+    color: white;
+}
+
+.add-btn:hover{
+    background: white;
+    color: black;
+}
+
+.cancel-btn:hover{
+    background: rgb(235, 62, 62);
+    color: white;
+}

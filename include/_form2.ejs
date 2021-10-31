@@ -1,0 +1,52 @@
+
+  <form action="/edit?id=<%= user._id%>" method="post" id="edit">
+    <% user.forEach(user=> {%>   
+  <div class="user-form">
+    <ul class="user-details">
+      <li>  
+        First name <br />
+        <input
+          type="text"
+          name="first_name"
+          value='<%= user.first_name.toUpperCase()%>'
+          placeholder="Enter your first name"
+        >
+      </li>
+      <li>
+        Last name <br />
+        <input
+          type="text"
+          name="last_name"
+          value="<%=user.last_name.toUpperCase()%>"
+          placeholder="Enter your last name"
+        />
+      </li>
+      <li>
+        User name <br />
+        <input
+          type="text"
+          name="user_name"
+          value="<%=user.user_name.toUpperCase()%>"
+          placeholder="Enter user name"
+        />
+      </li>
+      <li>
+        Email Address <br />
+        <input
+          type="email"
+          name="email"
+          value="<%=user.email%>"
+          placeholder="Enter your email id"
+         />
+      </li>
+    </ul>
+    <ul class="btn">
+      <li><button type="reset" class="cancel-btn">Cancel</button></li>
+      <li><button type="submit" class="add-btn">Save</button></li>
+    </ul>
+  </div>
+   
+  <% }) %>    
+</form>
+
+

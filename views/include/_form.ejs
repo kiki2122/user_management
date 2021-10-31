@@ -1,0 +1,43 @@
+<form name="form-add"
+onsubmit="return validateForm()"
+  action="/http://3.6.93.159:7883/machstatz/add_new_users"
+  method="post"
+  id="add_user"
+>
+  <div class="user-form">
+    <ul class="user-details">
+      <li id="add-user-list">
+        First name <br />
+        <input
+          type="text"
+          name="first_name"
+          placeholder="Enter your first name"
+        />
+      </li>
+      <li>
+        Last name <br />
+        <input
+          type="text"
+          name="last_name"
+          placeholder="Enter your last name"
+        />
+      </li>
+      <li>
+        User name <br />
+        <input type="text" name="user_name" placeholder="Enter user name" />
+      </li>
+      <li>
+        Email Address <br />
+        <input type="email" name="email" placeholder="Enter your email id" />
+      </li>
+      <li>
+        Password <br />
+        <input type="password" name="pwd" placeholder="Enter password" />
+      </li>
+    </ul>
+    <ul class="btn">
+      <li><button type="reset" class="cancel-btn">Cancel</button></li>
+      <li><button type="submit" class="add-btn">Add</button></li>
+    </ul>
+  </div>
+</form>
